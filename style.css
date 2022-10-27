@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;  
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    padding-bottom: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    padding-bottom: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+img{
+    padding-bottom: 30px;
+}
+.leftCard{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.leftCard h2{
+    color: hsl(0, 0%, 95%);
+}
+.leftCard p{
+    color: hsla(0, 0%, 100%, 0.75);
+   
+}
+.middleCard{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.middleCard h2{
+    color: hsl(0, 0%, 95%);
+}
+.middleCard p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.endCard{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+.endCard h2{
+    color: hsl(0, 0%, 95%);
+}
+.endCard p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+    border: 0px;
+    border-radius: 15px;
+    padding: 7px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button:hover{
+    background-color: grey;
+}
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width:375px){
+    main{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    }
+}
