@@ -1,0 +1,100 @@
+:root {
+    --color: white;
+}
+body{
+    background-color: rgb(233, 217, 217);
+    
+}
+img{
+   
+    border: 5px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+/**.floating{
+    float: left;
+    width: 50%;
+    margin-top: 5%;  
+}
+.checks{
+    position: absolute;
+    left: 900px;
+     top: 100px;
+    height: 200px;
+    width: 200px;
+}**/
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(20, 1, 1);
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 5px;
+    border-radius: 50px;
+}
+
+nav a {
+    color: var(--color);
+    padding: 14px 16px;
+}
+nav a:hover {
+    background-color: rgb(233, 217, 217);
+  }
+footer{
+    background-color: rgb(20, 1, 1);  
+}
+#copyRight{
+    color: var(--color);
+    padding: 20px;  
+    padding-bottom: 20px;
+}
+img {
+    display: inline-block;
+    margin: 75px 30px;
+  }
+.Name{
+    color: var(--color);
+  }
+
+  /**code for contact us page**/
+  input[type=text], textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+  }
+  textarea{
+    margin-left: 60px;
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container{
+   
+    text-align: center;
+  }
+  
+  
